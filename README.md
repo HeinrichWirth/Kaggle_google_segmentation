@@ -9,12 +9,12 @@
 Develop a model that, by analyzing satellite imagery, will help improve the prediction of contrail formation from aircraft engines. These contrails contribute to global warming, making their monitoring critical for the environment.
 
 ### My Reflection on the Competition
-This competition marked my debut on the Kaggle platform. Although my initial outcome wasn't as expected, every phase of the competition provided invaluable experience.
+This competition marked my debut on the Kaggle platform. Although my initial outcome wasn't as expected, every phase of the competition provided invaluable experience. Validation result 0.75 (Dice), test ~0.58. 
 
 After examining the winners' solutions post-competition, I identified several key takeaways:
 
 - Increasing image resolution: The top performers increased the resolution from 256 to 512 and even to 1024, significantly influencing prediction quality. This practice was new to me, and it gave me a profound understanding of its importance.
-- Data augmentation errors: I overlooked some augmentation nuances that could have affected the final outcome (explanation in the comment).
+- Data augmentation errors: I overlooked some augmentation nuances that could have affected the final outcome ([explanation in the comment](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430479)).
 - Modern architectures: Most winners employed UNet models with transformers. Delving into these solutions, I realized I missed out on implementing the latest deep learning advancements.
 Despite the above points, I noticed that in most aspects, my actions aligned with the winners'. This reaffirms that the core direction of my research and development was on track.
 
@@ -37,8 +37,8 @@ Geostationary satellite imagery from GOES-16 ABI is used to identify aircraft co
 - {train|validation}_metadata.json: Metadata for each entry, including timestamps and projection parameters.
 
 ### Tools and Libraries
-Python
-Keras: for constructing and training neural network models.
-Numpy: for data array handling.
-TensorFlow: as the primary library for deep learning.
-Model - R2U-Net
+- Python
+- Keras: for constructing and training neural network models.
+- Numpy: for data array handling.
+- TensorFlow: as the primary library for deep learning.
+- Model - R2U-Net
