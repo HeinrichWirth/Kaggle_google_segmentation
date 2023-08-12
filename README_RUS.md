@@ -1,6 +1,6 @@
 # Kaggle_google_segmentation
 
-[English](README_RUS.md)
+[English](README.md)
 
 ## Идентификация Конденсационных Следов на Основе Спутниковых Изображений
 Соревнование Kaggle: Google Research: Identify Contrails to Reduce Global Warming
